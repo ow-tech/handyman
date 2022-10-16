@@ -1,14 +1,6 @@
-// load navbar
-// $(document).ready(function () {
-//   $(function () {
-//     // alert("am here");
-//     $("#headerSection").load("nav.html");
-//   });
-
-//   $.get("nav.html", function (data) {
-//     $("#headerSection").replaceWith(data);
-//   });
-// });
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
 
 // Get the container element
 
@@ -37,3 +29,7 @@ $(document).ready(function () {
     e.preventDefault();
   });
 });
+
+
+
+

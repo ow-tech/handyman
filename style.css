@@ -207,6 +207,13 @@ h5 {
         /* overflow: hidden; */
     
 }
+
+/* call us css */
+
+.backgroundColor{
+    background-color: #f6a20e;
+    list-style-type: none;
+}
 /* movers css */
 
 #getQuote{
@@ -217,9 +224,12 @@ h5 {
    background-size: cover;
 }
 
-#whatsapp{
-    text-si
-}
+/* #whatsappSticky{
+    position: -webkit-sticky; 
+  position: sticky;
+  top: 50;
+color:red;
+} */
 
 /* footer css */
 .footer {
@@ -386,6 +396,8 @@ h5 {
         .first h4::after {
             left: 40%;
         }
+
+       
 }
 
 @media screen and (max-width:1000px) {
@@ -406,5 +418,19 @@ h5 {
     height:2px;
     background-color:#0275d8;
     width:100%;
+}
+
+
+@media screen and (max-width:900px){
+    
+     /* remove carousel if media query is lower than 1000px */
+     #sectionInnerCarousel{
+        visibility: hidden;
+    }
+    .sectionInnerCarousel{
+        background-image: url("./image/plumber dubai.png");
+        background-repeat: no-repeat;
+   background-size: cover;
+    }
 }
 
