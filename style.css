@@ -213,6 +213,10 @@ h5 {
 .backgroundColor{
     background-color: #f6a20e;
     list-style-type: none;
+    border-radius: 15px;
+}
+.borderRadius{
+    border-radius: 15px;
 }
 /* movers css */
 
@@ -233,7 +237,7 @@ color:red;
 
 /* footer css */
 .footer {
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./image/electrician.jpg");
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./image/male-electrician-works-switchboard-with-electrical-connecting-cable.jpg");
     background-size: cover;
     
 }
