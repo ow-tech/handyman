@@ -234,7 +234,28 @@ h5 {
   top: 50;
 color:red;
 } */
+#mywhatsapp {
+  height: 80px;
+  width: 80px;
+  position: fixed;
+  bottom: 50px;
+  right: 0px;
+}
+    
+    
+.whatsappUs {
+  background-color :#58B844;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #58B844;
+}
 
+#mybutton {
+  position: fixed;
+  bottom: 50px;
+  left: 10px;
+}
 /* footer css */
 .footer {
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./image/male-electrician-works-switchboard-with-electrical-connecting-cable.jpg");
@@ -271,9 +292,7 @@ color:red;
             left: 0;
         }
 
-    .first p {
-        
-    }
+  
 
 .second {
     margin-top: 40px;
@@ -438,3 +457,8 @@ color:red;
     }
 }
 
+
+
+
+
+/* middle imported section */
