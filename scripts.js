@@ -10,6 +10,10 @@ $.get("whatsapp.html", function(data){
   $("#whatsapp-placeholder").replaceWith(data);
 });
 
+$.get("contact.html", function(data){
+  $("#contact-placeholder").replaceWith(data);
+});
+
 
 $.get("footer.html", function(data){
   $("#footer-placeholder").replaceWith(data);
