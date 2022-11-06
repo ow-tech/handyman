@@ -74,7 +74,7 @@ h1 a {
 	position:absolute;
 	left:0;
 	top:0;
-	z-index:5;
+	z-index:3;
 }
 .banner-1 {
 	width:376px;
@@ -83,7 +83,7 @@ h1 a {
 	position:absolute;
 	left:0;
 	top:0;
-	z-index:9;
+	z-index:4;
 }
 .carousel-inner {
 	height: 397px;
@@ -238,8 +238,9 @@ color:red;
   height: 80px;
   width: 80px;
   position: fixed;
-  bottom: 50px;
+  bottom: 40px;
   right: 0px;
+  z-index: 5;
 }
     
     
@@ -255,6 +256,7 @@ color:red;
   position: fixed;
   bottom: 50px;
   left: 10px;
+  z-index: 5;
 }
 /* footer css */
 .footer {
@@ -455,6 +457,19 @@ color:red;
         background-repeat: no-repeat;
    background-size: cover;
     }
+}
+
+@media screen and (max-width:500px){
+    /* change layout of whatsaap buttons for media lower than 500px*/
+
+    #mywhatsapp {
+        bottom:100px ;
+
+    }
+    #mybutton{
+        bottom:10px;
+    }
+
 }
 
 
