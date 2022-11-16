@@ -46,7 +46,7 @@ a:hover {
 h1 a {
 	display:block;
 	width:218px;
-	height:32px;
+	height:55px;
 	text-indent:-9999px;
 	background:url(./image/logo.png) 0 0 no-repeat;
 }
@@ -245,7 +245,7 @@ color:red;
     
     
 .whatsappUs {
-  background-color :#58B844;
+  background-color :#30c513;
   color: white;
   padding: 10px 20px;
   border-radius: 4px;
